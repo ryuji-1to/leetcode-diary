@@ -60,6 +60,7 @@ pub mod p_3162;
 pub mod p_3174;
 pub mod p_3190;
 pub mod p_3194;
+pub mod p_3232;
 pub mod p_3242;
 pub mod p_3248;
 pub mod p_3264;
