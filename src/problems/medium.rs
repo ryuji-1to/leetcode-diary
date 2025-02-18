@@ -2,6 +2,7 @@ pub mod p_1282;
 pub mod p_1476;
 pub mod p_1689;
 pub mod p_1769;
+pub mod p_1828;
 pub mod p_2044;
 pub mod p_2396;
 pub mod p_2433;
