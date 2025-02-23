@@ -1,3 +1,4 @@
+// Solution: rowとcolの最大値を求めて、各要素の値を最大値と比べ差分の和を求める
 pub fn max_increase_keeping_skyline(grid: Vec<Vec<i32>>) -> i32 {
     let n = grid.len();
     // let max_rows: Vec<i32> = grid.iter().map(|x| *x.iter().max().unwrap()).collect();
