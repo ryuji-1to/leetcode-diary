@@ -51,6 +51,7 @@ pub mod p_2656;
 pub mod p_2678;
 pub mod p_2697;
 pub mod p_2744;
+pub mod p_2778;
 pub mod p_2798;
 pub mod p_2810;
 pub mod p_2824;
