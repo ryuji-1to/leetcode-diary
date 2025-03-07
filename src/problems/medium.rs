@@ -18,6 +18,7 @@ pub mod p_2375;
 pub mod p_2391;
 pub mod p_2396;
 pub mod p_2433;
+pub mod p_2482;
 pub mod p_2545;
 pub mod p_2610;
 pub mod p_2657;

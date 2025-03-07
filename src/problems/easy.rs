@@ -69,6 +69,7 @@ pub mod p_2894;
 pub mod p_2913;
 pub mod p_2942;
 pub mod p_2956;
+pub mod p_2960;
 pub mod p_2974;
 pub mod p_3019;
 pub mod p_3065;
