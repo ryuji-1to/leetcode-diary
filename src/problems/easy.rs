@@ -1,4 +1,5 @@
 pub mod p_0338;
+pub mod p_0349;
 pub mod p_0682;
 pub mod p_0832;
 pub mod p_0933;
@@ -9,6 +10,7 @@ pub mod p_1021;
 pub mod p_1252;
 pub mod p_1266;
 pub mod p_1281;
+pub mod p_1304;
 pub mod p_1309;
 pub mod p_1313;
 pub mod p_1332;
