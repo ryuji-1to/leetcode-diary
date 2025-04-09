@@ -29,10 +29,12 @@ pub mod p_1684;
 pub mod p_1688;
 pub mod p_1700;
 pub mod p_1704;
+pub mod p_1710;
 pub mod p_1716;
 pub mod p_1720;
 pub mod p_1725;
 pub mod p_1732;
+pub mod p_1742;
 pub mod p_1748;
 pub mod p_1768;
 pub mod p_1773;
@@ -153,4 +155,3 @@ pub mod p_3432;
 pub mod p_3461;
 pub mod p_3467;
 pub mod p_3492;
-
