@@ -93,6 +93,7 @@ pub mod p_2427;
 pub mod p_2441;
 pub mod p_2460;
 pub mod p_2485;
+pub mod p_2496;
 pub mod p_2500;
 pub mod p_2520;
 pub mod p_2529;
