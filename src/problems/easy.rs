@@ -73,6 +73,7 @@ pub mod p_1974;
 pub mod p_1979;
 pub mod p_2000;
 pub mod p_2006;
+pub mod p_2022;
 pub mod p_2032;
 pub mod p_2037;
 pub mod p_2042;
