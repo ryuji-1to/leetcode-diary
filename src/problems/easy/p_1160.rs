@@ -1,24 +1,52 @@
 pub fn count_characters(words: Vec<String>, chars: String) -> i32 {
-    let mut available_chars = vec![0; 26];
+    // let mut available_chars = vec![0; 26];
+    // for c in chars.chars() {
+    //     available_chars[((c as u8) - b'a') as usize] += 1;
+    // }
+    //
+    // let mut result = 0;
+    // for word in words {
+    //     let mut tmp = vec![0; 26];
+    //     result += word.len();
+    //     for c in word.chars() {
+    //         let index = ((c as u8) - b'a') as usize;
+    //         tmp[index] += 1;
+    //         available_chars[index];
+    //         if tmp[index] > available_chars[index] {
+    //             result -= word.len();
+    //             break;
+    //         }
+    //     }
+    // }
+    // result as i32
+
+    let mut available = [0; 26];
     for c in chars.chars() {
-        available_chars[((c as u8) - b'a') as usize] += 1;
+        available[((c as u8) - b'a') as usize] += 1;
     }
 
-    let mut result = 0;
-    for word in words {
-        let mut tmp = vec![0; 26];
-        result += word.len();
-        for c in word.chars() {
-            let index = ((c as u8) - b'a') as usize;
-            tmp[index] += 1;
-            available_chars[index];
-            if tmp[index] > available_chars[index] {
-                result -= word.len();
-                break;
+    words
+        .iter()
+        .filter_map(|word| {
+            let mut needed = [0; 26];
+
+            // 単語に必要な各文字の数をカウント
+            for c in word.chars() {
+                needed[((c as u8) - b'a') as usize] += 1;
             }
-        }
-    }
-    result as i32
+
+            // すべての文字が利用可能かチェック
+            if needed
+                .iter()
+                .zip(&available)
+                .all(|(need, &avail)| *need <= avail)
+            {
+                Some(word.len() as i32)
+            } else {
+                None
+            }
+        })
+        .sum()
 }
 
 #[cfg(test)]
