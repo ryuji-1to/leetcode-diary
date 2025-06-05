@@ -17,6 +17,7 @@ pub mod p_0942;
 pub mod p_0944;
 pub mod p_0961;
 pub mod p_1021;
+pub mod p_1025;
 pub mod p_1030;
 pub mod p_1160;
 pub mod p_1217;
