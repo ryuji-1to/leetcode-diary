@@ -212,6 +212,7 @@ pub mod p_3402;
 pub mod p_3423;
 pub mod p_3427;
 pub mod p_3432;
+pub mod p_3452;
 pub mod p_3461;
 pub mod p_3467;
 pub mod p_3492;
