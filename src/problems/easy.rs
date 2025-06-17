@@ -152,6 +152,7 @@ pub mod p_2670;
 pub mod p_2678;
 pub mod p_2696;
 pub mod p_2697;
+pub mod p_2706;
 pub mod p_2710;
 pub mod p_2716;
 pub mod p_2733;
